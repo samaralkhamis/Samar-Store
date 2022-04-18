@@ -1,0 +1,4 @@
+2022-04-15T21:03:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\e-commerce\wp-includes\Requests\Transport\cURL.php on line 165
+
+2022-04-15T21:06:19+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\e-commerce\wp-includes\Requests\Transport\cURL.php on line 165
+

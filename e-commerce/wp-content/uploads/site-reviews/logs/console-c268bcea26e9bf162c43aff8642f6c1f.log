@@ -1,0 +1,70 @@
+[2022-04-18 08:28:24] DEBUG [Modules\Migrate:163] [Migrate_3_0_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_4_0_2] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_4_4_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_4_5_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_0_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_2_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_3_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_9_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_10_3] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_11_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_14_0] has run successfully
+[2022-04-18 08:28:25] DEBUG [Modules\Migrate:163] [Migrate_5_19_0] has run successfully
+[2022-04-18 08:36:36] ERROR [Modules\Email:84] Email was not sent (wp_mail failed)
+[2022-04-18 08:36:36] DEBUG [Modules\Email:85] Array (
+    [error] =&gt; WP_Error Object (
+        [errors] =&gt; Array (
+            [wp_mail_failed] =&gt; Nested Array
+        )
+        [error_data] =&gt; Array (
+            [wp_mail_failed] =&gt; Nested Array
+        )
+        [additional_data:protected] =&gt; Array ()
+    )
+    [instance] =&gt; GeminiLabs\SiteReviews\Modules\Email Object (
+        [attachments] =&gt; Array ()
+        [data] =&gt; Array (
+            [args] =&gt; Nested Array
+            [review] =&gt; Nested GeminiLabs\SiteReviews\Review Object
+        )
+        [email] =&gt; Array (
+            [after] =&gt; 
+            [attachments] =&gt; Nested Array
+            [bcc] =&gt; 
+            [before] =&gt; 
+            [cc] =&gt; 
+            [from] =&gt; PHONE STORE &lt;alkhamissamar98@gmail.com&gt;
+            [message] =&gt; 
+            [reply-to] =&gt; PHONE STORE &lt;alkhamissamar98@gmail.com&gt;
+            [subject] =&gt; [PHONE STORE] New 0-star review of 
+            [template] =&gt; default
+            [template-tags] =&gt; Nested Array
+            [to] =&gt; Nested Array
+        )
+        [headers] =&gt; Array (
+            [0] =&gt; from: PHONE STORE &lt;alkhamissamar98@gmail.com&gt;
+            [1] =&gt; reply-to: PHONE STORE &lt;alkhamissamar98@gmail.com&gt;
+            [2] =&gt; Content-Type: text/html
+        )
+        [message] =&gt; &lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+        &lt;title&gt;PHONE STORE&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+        &lt;p&gt;&lt;strong&gt;A new 0-star review has been submitted:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Review&lt;/p&gt;
+&lt;p&gt;samar98 &lt;alkhamissamar98@gmail.com&gt; &#8211; ::1&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost/e-commerce/wp-admin/post.php?post=1579&#038;action=edit&quot;&gt;http://localhost/e-commerce/wp-admin/post.php?post=1579&#038;action=edit&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;/body&gt;
+&lt;/html&gt;
+        [subject] =&gt; [PHONE STORE] New 0-star review of 
+        [to] =&gt; Array (
+            [0] =&gt; alkhamissamar98@gmail.com
+        )
+    )
+)
